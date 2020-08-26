@@ -1,0 +1,26 @@
+.container {
+  padding: 15px 25px;
+}
+
+.width-full {
+  width: 100% !important;
+}
+
+.p-button-rounded {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.p-button-rounded .pi {
+  font-size: 0.5rem !important;
+}
+
+.bg-grey th {
+  background: #eee !important;
+}
+
+.myDiagramDiv {
+  background: whitesmoke;
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+}
