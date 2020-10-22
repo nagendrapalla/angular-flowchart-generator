@@ -12,10 +12,13 @@ import { TableModule } from 'primeng/table';
 import { GojsAngularModule } from 'gojs-angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ConfirmationService } from 'primeng/api';
+import { DiagramEditorComponent } from './diagram-editor/diagram-editor.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DiagramEditorComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { ConfirmationService } from 'primeng/api';
     DropdownModule,
     InputTextareaModule,
     TableModule,
-    GojsAngularModule
+    GojsAngularModule,
+    FormsModule
   ],
   providers: [ConfirmationService],
   bootstrap: [AppComponent]
